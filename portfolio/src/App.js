@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Controls } from './components';
-import {Header,AboutSection,} from './container';
+import {Header,AboutSection,PortfolioSection,} from './container';
 
 
 
@@ -11,6 +11,7 @@ const App = () => (
     <main>
     <Header />
     <AboutSection/>
+    <PortfolioSection/>
     </main>
     <Controls />
 
