@@ -1,0 +1,231 @@
+.header-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-height: 100vh;
+  }
+  
+  .left-header {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .h-shape {
+    transition: all .4s ease-in-out;
+    width: 65%;
+    height: 100%;
+    background-color: var(--color-secondary);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    clip-path: polygon(0 0, 46% 0, 86% 100%, 0% 100%);
+  }
+  .image {
+    border-radius: var(--br-sm-2);
+    height: 90%;
+    width: 68%;
+    margin-left: 4rem;
+    background-color: var(--color-black);
+    transition: all .4s ease-in-out;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .4s ease-in-out;
+    filter: grayscale(0);
+    border-radius: 10px;
+  }
+  
+  img:hover,
+  img:active {
+    filter: grayscale(60%);
+  }
+  
+  /* ----------------------------------------------------------------------------------------------------------------- */
+  /* Right header */
+  .right-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 18rem;
+  }
+  
+  .name {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+  
+  .name-span {
+    color: var(--color-secondary);
+  }
+
+  p {
+    margin: .5rem 0;
+    line-height: 1.5rem;
+    text-align: left;
+    letter-spacing: .01rem;
+  }
+  .btn-con {
+    display: flex;
+    align-self: flex-start;
+    margin-top: 1rem;
+  }
+  
+  .main-btn {
+    border-radius: 30px;
+    color: inherit;
+    font-weight: 600;
+    position: relative;
+    border: 1px solid var(--color-secondary);
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .btn-text {
+    padding: 0 2rem;
+  }
+  
+  .btn-icon {
+    background-color: var(--color-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 1rem;
+  }
+  .main-btn:hover {
+    box-shadow: 0 0  15px 5px var(--color-secondary);
+  }
+   
+  .main-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+    transition: all .4s ease-in-out;
+    z-index: -1;
+    border-radius: 5px solid var(--color-secondary);
+  }
+  
+  .main-btn:hover::before {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-secondary);
+    transform: translateX(0);
+    transition: all .4s ease-in-out;
+  }
+  
+  @media screen and (max-width:1432px) {
+    header {
+      padding: 0 !important;
+    }
+  }
+  @media screen and(max-width:970px) {
+   
+  .section {
+    padding: 7rem 6rem;
+  }
+
+  header {
+    padding: 0;
+  }
+
+  header .right-header {
+    padding: 2rem !important;
+  }
+  .theme-btn {
+    width: 50px;
+    height: 50px;
+  }
+
+  .header-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 6rem;
+  }
+
+  .h-shape {
+    display: none;
+  }
+
+  .left-header {
+    margin-right: .6rem;
+    margin-left: 0;
+  }
+
+  .right-header {
+    grid-row: 1;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .name {
+    font-size: 2.5rem !important;
+  }
+
+  .header-content .left-header .image {
+    margin: 0 auto;
+    width: 90%;
+    height: 40vh;
+    border-radius: px;
+  }
+
+}
+  @media screen and (max-width:600px) {
+    header {
+      padding: 0;
+    }
+  
+    header .right-header {
+      padding: 2rem !important;
+    }
+  
+    .theme-btn {
+      width: 50px;
+      height: 50px;
+    }
+  
+    .header-content {
+      display: grid;
+      grid-template-columns: 1fr;
+      padding-bottom: 6rem;
+    }
+  
+    .h-shape {
+      display: none;
+      
+    }
+  
+    .left-header {
+      margin-right: .6rem;
+      margin-left: 0;
+     
+    }
+   
+    .right-header {
+      grid-row: 1;
+      width: 100%;
+      margin: 0 auto;
+    }
+  
+    .name {
+      font-size: 2.5rem !important;
+      line-height: 3rem !important;
+    }
+  
+    .header-content .left-header .image {
+      margin: 0 auto;
+      width: 90%;
+      height: 65vh;
+      z-index: 1000 !important;
+      overflow: visible;
+      margin-bottom: -3rem;
+       
+    }
+  }
