@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-
+import { Controls } from './components';
 
 
 
@@ -9,7 +9,7 @@ const App = () => (
     <main>
  
     </main>
-   
+    <Controls />
   </div>
 );
 export default App;
