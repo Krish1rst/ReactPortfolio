@@ -22,16 +22,15 @@ const PortfolioSection = () => {
           <div className="p-image">
             <img className="portf-img" src={images.project1} alt="" />
           </div>
-
           <div className="hover-items">
             <h3 className="hover-item-h3">BLOG WEBSITE </h3>
             <h3 className="hover-item-h3 tex"> PROTOTYPE</h3>
             <div className="icons">
               <a href="https://github.com/Krish1rst/codealpha_BlogWebsite"target="_blank" className="icon">
-              <i class="fab fa-github icon-i "></i>
+              <i className="fab fa-github icon-i "></i>
               </a>
               <a href="https://krish1rst.github.io/codealpha_BlogWebsite/"target="_blank" className="icon">
-              <i class="fas fa-eye"></i>
+              <i className="fas fa-eye"></i>
               </a>              
             </div>
           </div>
@@ -46,10 +45,10 @@ const PortfolioSection = () => {
             <h3 className="hover-item-h3 tex">PORTFOLIO PROTOTYPE</h3>
             <div className="icons">
               <a href="https://github.com/Krish1rst/Portfolio"target="_blank" className="icon">
-              <i class="fab fa-github icon-i "></i>
+              <i className="fab fa-github icon-i "></i>
               </a>
               <a href="https://krish1rst.github.io/Portfolio/"target="_blank" className="icon">
-              <i class="fas fa-eye"></i>
+              <i className="fas fa-eye"></i>
               </a>              
             </div>
           </div>
@@ -63,10 +62,10 @@ const PortfolioSection = () => {
             <h3 className="hover-item-h3">RESUME BUILDER</h3>
             <div className="icons">
                <a href="https://github.com/Krish1rst/ResumeBuilder"target="_blank" className="icon">
-              <i class="fab fa-github icon-i "></i>
+              <i className="fab fa-github icon-i "></i>
               </a>
               <a href="https://krish1rst.github.io/ResumeBuilder/"target="_blank" className="icon">
-              <i class="fas fa-eye"></i>
+              <i className="fas fa-eye"></i>
               </a>              
             </div>
           </div>
@@ -88,10 +87,10 @@ const PortfolioSection = () => {
             <h3 className="hover-item-h3 tex">TEXT MANIPULATION PROJECT </h3>
             <div className="icons">
             <a href="https://github.com/Krish1rst/TextUtils_Krishna"target="_blank" className="icon">
-              <i class="fab fa-github icon-i "></i>
+              <i className="fab fa-github icon-i "></i>
               </a>
               <a href="https://spectacular-youtiao-b8c139.netlify.app/"target="_blank" className="icon">
-              <i class="fas fa-eye"></i>
+              <i className="fas fa-eye"></i>
               </a>              
             </div>
           </div>
@@ -106,10 +105,10 @@ const PortfolioSection = () => {
             <h3 className="hover-item-h3 tex">NEWS API PROJECT</h3>
             <div className="icons">
               <a href="https://github.com/Krish1rst/NewsDaily"target="_blank" className="icon">
-              <i class="fab fa-github icon-i "></i>
+              <i className="fab fa-github icon-i "></i>
               </a>
               <a href="#"target="_blank" className="icon">
-              <i class="fas fa-eye"></i>
+              <i className="fas fa-eye"></i>
               </a>              
             </div>
           </div>
@@ -124,10 +123,10 @@ const PortfolioSection = () => {
             <h3 className="hover-item-h3 tex">MY PERSONAL PORTFOLIO </h3>
             <div className="icons">
               <a href="#"target="_blank" className="icon">
-              <i class="fab fa-github icon-i "></i>
+              <i className="fab fa-github icon-i "></i>
               </a>
               <a href="#"target="_blank" className="icon">
-              <i class="fas fa-eye"></i>
+              <i className="fas fa-eye"></i>
               </a>              
             </div>
           </div>

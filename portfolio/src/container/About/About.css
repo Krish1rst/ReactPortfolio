@@ -327,7 +327,7 @@
     }
   }
   
-  @media screen and (max-width:1070px) {
+  @media screen and (max-width:1075px) {
     .about-container {
       grid-template-columns: repeat(1, 1fr);
       margin: 0 3rem;
@@ -335,9 +335,17 @@
   
     .left-about {
       margin-bottom: 2rem;
-      
     }
-  
+    .left-about {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 1rem;
+    }
+    .right-about {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 1rem;
+    }
     .h4-about {
       padding-left: 3rem;
     }
