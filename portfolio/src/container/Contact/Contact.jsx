@@ -31,7 +31,7 @@ const ContactSection = () => {
       });
   };
   return (
-    <section className="section sec5" id="contact">
+    <section className="section active sec5" id="contact">
       <div className="main-title">
         <h2>Contact<span className="name-span">Me</span><span className="bg-text bg-text-contact">MYCONTACTS</span></h2>
       </div>

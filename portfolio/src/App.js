@@ -1,21 +1,21 @@
 import React from 'react';
 import './App.css';
 import { Controls } from './components';
-import {Header,AboutSection,PortfolioSection,ContactSection} from './container';
-
+import {BrowserRouter,Routes,Route} from 'react-router-dom';
+import {Home,AboutSection,PortfolioSection,ContactSection} from './container';
 
 
 
 const App = () => (
-    <div className="main-content">   
-    <main>
-    <Header />
-    <AboutSection/>
-    <PortfolioSection/>
-    <ContactSection/>
-    </main>
+  <BrowserRouter>
+  <Routes>
+    <Route path='/'element={<Home />}/>
+    <Route path='AboutSection'element={<AboutSection/>}/>
+    <Route path='PortfolioSection'element={<PortfolioSection/>}/>
+    <Route path='ContactSection'element={<ContactSection/> }/>
+  </Routes>
     <Controls />
-
-  </div>
+  </BrowserRouter>
+   
 );
 export default App;

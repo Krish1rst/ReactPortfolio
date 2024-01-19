@@ -4,7 +4,7 @@ import './Home.css';
 
 
 
-export default function Header() {
+export default function Home() {
   return (
     <header className="section sec1 header active" id="home">
       <div className="header-content">

@@ -4,8 +4,9 @@ import {images} from '../../constants';
 
 
 const PortfolioSection = () => {
+
   return (
-    <section className="section sec3" id="portfolio">
+    <section className="section sec3 active" id="portfolio">
       <div className="main-title">
         <h2>
           My<span className="name-span">Projects</span><span className="bg-text">Portfolio</span>
