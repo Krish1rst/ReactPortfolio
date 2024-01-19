@@ -29,7 +29,9 @@
     margin-top: 3rem;
   }
    
-  
+  .p-image{
+    background-color: rgb(73, 73, 73);
+  }
   .portfolio-item {
     position: relative;
     border-radius: 15px;
@@ -43,6 +45,7 @@
   }
   .portf-img {
     height: 300px;
+    margin-bottom: -10px;
     border-radius: 15px;
     object-fit: cover;
     filter: grayscale(0);
