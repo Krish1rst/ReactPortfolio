@@ -1,6 +1,4 @@
 import React from 'react'
-import { useState } from 'react';
-import {Header,AboutSection,PortfolioSection,ContactSection} from '../../container';
 import { NavLink } from 'react-router-dom';
 
 function Toggle() {  
