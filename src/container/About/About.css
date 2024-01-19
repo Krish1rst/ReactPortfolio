@@ -31,10 +31,28 @@
   /*ABOUT- right-bout */
   .right-about {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(1, 1fr);
     grid-gap: 1rem;
   }
-  
+  .left-about {
+    padding-right: 5rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+  }
+  .left-about-item{
+    border: 1px solid var(--color-grey-5);
+    border-radius: 5px;
+    transition: all.4s ease-in-out;
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.1);
+  }
+  .about-item {
+    border: 1px solid var(--color-grey-5);
+    border-radius: 5px;
+    transition: all.4s ease-in-out;
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.1);
+    max-width: 27rem;
+  }
   .about-icon {
     display: flex;
     align-items: center;
@@ -51,12 +69,7 @@
     background-color: var(--color-secondary);
     box-shadow: 0 0 25px 7px var(--color-secondary);
   }
-  .about-item {
-    border: 1px solid var(--color-grey-5);
-    border-radius: 5px;
-    transition: all.4s ease-in-out;
-    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.1);
-  }
+ 
 
   .abt-text {
     padding: 1.5rem;
@@ -94,12 +107,7 @@
   
   /* ----------------------------------------------------------------------------------------------------------------- */
   /* ABOUT-left-about */
-  .left-about {
-    padding-right: 5rem;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 1rem;
-  }
+  
   .p-para {
     line-height: 2rem;
     padding: 1rem;
@@ -327,7 +335,7 @@
     }
   }
   
-  @media screen and (max-width:1075px) {
+  @media screen and (max-width:1070px) {
     .about-container {
       grid-template-columns: repeat(1, 1fr);
       margin: 0 3rem;
@@ -336,16 +344,7 @@
     .left-about {
       margin-bottom: 2rem;
     }
-    .left-about {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      grid-gap: 1rem;
-    }
-    .right-about {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      grid-gap: 1rem;
-    }
+  
     .h4-about {
       padding-left: 3rem;
     }
@@ -379,12 +378,20 @@
     .right-about {
       grid-template-columns: 1fr;
       padding-top: 2.5rem;
+      display: none;
     }
   
     .left-about {
       padding-right: 0;
+      margin-bottom: -3rem;
     }
-  
+    .about-item {
+      border: 1px solid var(--color-grey-5);
+      border-radius: 5px;
+      transition: all.4s ease-in-out;
+      box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.1);
+      max-width: 27rem;
+    }
     .p-para {
       padding-left: 0;
       text-align: center;
