@@ -1,33 +1,33 @@
 import React from 'react'
-import { useEffect } from 'react';
+import { useEffect,useState} from 'react';
 
 function Theme() {
-    useEffect(() => {
-        function PageTransitions() {
-          const themeBtn = document.querySelector('.theme-btn');
-          const element = document.body;
-          const storedTheme = localStorage.getItem('selectedTheme');
-    
-          if (storedTheme === 'light-mode') {
-            element.classList.add('light-mode');
-          } else {
-            element.classList.remove('light-mode');
-          }
-          themeBtn.addEventListener('click', () => {
-            element.classList.toggle('light-mode');
-            if (element.classList.contains('light-mode')) {
-              localStorage.setItem('selectedTheme', 'light-mode');
-            } else {
-              localStorage.removeItem('selectedTheme');
-            }
-          });
-        }
-    
-        PageTransitions();
-      }, []);
+const [bodyTheme,setBodyTheme]=useState(true);
+
+const changeTheme=()=>{
+  const storedTheme = localStorage.getItem('selectedTheme');
+  if (storedTheme === 'light-mode') {
+    document.body.className = 'light-mode';
+    setBodyTheme(false);
+   } else {
+    document.body.className = '';
+    setBodyTheme(true);
+   }
+
+  if(bodyTheme){
+    document.body.className = 'light-mode';
+    localStorage.setItem('selectedTheme', 'light-mode');
+    setBodyTheme(false);
+  }
+  else{
+    document.body.className = '';
+    localStorage.removeItem('selectedTheme');
+    setBodyTheme(true);
+  }
+}
 
     return (
-        <div className="theme-btn">
+        <div className="theme-btn" onClick={changeTheme}>
           <i className="fas fa-adjust i-theme"></i>
         </div>
       );
