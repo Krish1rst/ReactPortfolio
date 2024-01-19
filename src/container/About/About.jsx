@@ -32,7 +32,7 @@ const AboutSection = () => {
         <div className="right-about">
         <div className="about-item">
             <div className="abt-text">
-            <a  href="https://www.linkedin.com/posts/krishna-yadav-968629241_internship-completion-certificate-activity-7095338200872697856-Sh3A?utm_source=share&utm_medium=member_android" target="_blank" className="about-icon">
+            <a  href="https://www.linkedin.com/posts/krishna-yadav-968629241_internship-completion-certificate-activity-7095338200872697856-Sh3A?utm_source=share&utm_medium=member_android" className="about-icon">
             <i className="fas fa-external-link-alt"></i>
               </a>
               <p className="small-text">Experience :<br />Summer Intern (July 2023)<br/>-Code Alpha(lucknow) </p>
@@ -40,7 +40,7 @@ const AboutSection = () => {
           </div> 
         <div className="about-item">
             <div className="abt-text">
-            <a  href="https://www.hackerrank.com/certificates/ec5aa6c1d400" target="_blank" className="about-icon">
+            <a  href="https://www.hackerrank.com/certificates/ec5aa6c1d400" className="about-icon">
             <i className="fas fa-link"></i>
               </a>
               <p className="small-text">CSS Certification :<br /> HackerRank</p>
@@ -49,7 +49,7 @@ const AboutSection = () => {
        
         <div className="about-item">
             <div className="abt-text">
-            <a  href="https://scl.io/QGSofJ0" target="_blank" className="about-icon">
+            <a  href="https://scl.io/QGSofJ0" className="about-icon">
             <i className="fas fa-external-link-alt"></i>
               </a>
               <p className="small-text">Certification : <br />-Final-exam : Frontend development(Skillsoft)</p>

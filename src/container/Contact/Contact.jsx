@@ -74,19 +74,19 @@ const ContactSection = () => {
           
           <div className="contact-icons">
             <div className="contact-icon">
-              <a href="https://www.linkedin.com/in/krishna-yadav-968629241" target="_blank" className="a-icon">
+              <a href="https://www.linkedin.com/in/krishna-yadav-968629241" className="a-icon">
               <i className="fab fa-linkedin icon-i"></i>
               </a>
-              <a href="https://github.com/Krish1rst" target="_blank" className="a-icon">
+              <a href="https://github.com/Krish1rst" className="a-icon">
                 <i className="fab fa-github i-cn"></i>
               </a>
-              <a href="https://leetcode.com/Krishtark/" target="_blank" className="a-icon">
+              <a href="https://leetcode.com/Krishtark/" className="a-icon">
               <img className='leetcode' src={images.leetcode} alt="" />
               </a>
-              <a href="https://twitter.com/Krishna1rst" target="_blank" className="a-icon">
+              <a href="https://twitter.com/Krishna1rst" className="a-icon">
                 <i className="fab fa-twitter i-cn"></i>
               </a>
-              <a href="https://photos.app.goo.gl/JfPyKVmv7eDqyhvu7" target="_blank" className="a-icon">
+              <a href="https://photos.app.goo.gl/JfPyKVmv7eDqyhvu7" className="a-icon">
               <i className="fas fa-paint-brush"></i>
               </a>
             </div>
