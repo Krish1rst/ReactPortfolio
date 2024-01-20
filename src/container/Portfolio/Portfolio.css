@@ -41,7 +41,7 @@
   .portfolio-item:hover{
     box-shadow: 0 0 15px 4px var(--color-secondary);
     transition: all .4s ease-in-out;
-    transform: scale(1.01);
+    transform: scale(1);
   }
   .portf-img {
     height: 300px;
