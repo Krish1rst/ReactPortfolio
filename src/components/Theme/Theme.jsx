@@ -3,8 +3,7 @@ import { useEffect,useState} from 'react';
 
 function Theme() {
 const [bodyTheme,setBodyTheme]=useState(true);
-
-const changeTheme=()=>{
+useEffect(()=>{
   const storedTheme = localStorage.getItem('selectedTheme');
   if (storedTheme === 'light-mode') {
     document.body.className = 'light-mode';
@@ -13,6 +12,10 @@ const changeTheme=()=>{
     document.body.className = '';
     setBodyTheme(true);
    }
+
+},[bodyTheme])
+
+const changeTheme=()=>{
 
   if(bodyTheme){
     document.body.className = 'light-mode';
