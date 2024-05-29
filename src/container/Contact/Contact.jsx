@@ -74,7 +74,7 @@ const ContactSection = () => {
           
           <div className="contact-icons">
             <div className="contact-icon">
-              <a href="https://www.linkedin.com/in/krishna-yadav-968629241" className="a-icon">
+              <a href="https://www.linkedin.com/in/krishna-1rst/" className="a-icon">
               <i className="fab fa-linkedin icon-i"></i>
               </a>
               <a href="https://github.com/Krish1rst" className="a-icon">
