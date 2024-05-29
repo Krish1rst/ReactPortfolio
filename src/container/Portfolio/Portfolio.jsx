@@ -31,10 +31,10 @@ const PortfolioSection = () => {
           <h3 className="hover-item-h3 tex">{item.subTitle}</h3>
           <div className="icons">
             <a href={item.gitHubLink} target="_blank" rel="noreferrer" className="icon">
-              {item.icon1}
+            <i className="fab fa-github icon-i "></i>
             </a>
             <a href={item.liveLink} target="_blank" rel="noreferrer" className="icon">
-              {item.icon2}
+            <i className="fas fa-eye"></i> 
             </a>
           </div>
         </div>
@@ -62,10 +62,10 @@ const PortfolioSection = () => {
           <h3 className="hover-item-h3 tex">{item.subTitle}</h3>
           <div className="icons">
             <a href={item.gitHubLink} target="_blank" rel="noreferrer" className="icon">
-              {item.icon1}
+            <i className="fab fa-github icon-i "></i>
             </a>
             <a href={item.liveLink} target="_blank" rel="noreferrer" className="icon">
-              {item.icon2}
+            <i className="fas fa-eye"></i> 
             </a>
           </div>
         </div>
