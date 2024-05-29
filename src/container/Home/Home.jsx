@@ -23,7 +23,7 @@ export default function Home() {
             Embark on an immersive digital journey through my captivating developer portfolio, where elegant code intertwines with imaginative solutions, pushing the boundaries of innovation with every meticulously crafted line.
           </p>
           <div className="btn-con">
-            <a href="https://drive.google.com/file/d/19OxqmY7ORJn8SERxVm1OCXOU742jfX6O/view?usp=drivesdk "target="_blank"className="main-btn">
+            <a href="https://drive.google.com/file/d/1rxy_dfEigtc0-SLvN9r6fS1oZFIiWB9r/view?usp=sharing" rel="noreferrer "target="_blank"className="main-btn">
               <span className="btn-text">Download CV</span>
               <span className="btn-icon"><i className="fas fa-download"></i></span>
             </a>

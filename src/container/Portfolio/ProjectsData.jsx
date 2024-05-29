@@ -1,6 +1,5 @@
-import {images} from '../../constants';
 
-const {project1,project2,project3,project4,project5,project6}=images;
+
 export const Project = [
     { id: 1, 
         projectType: "js",
