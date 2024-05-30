@@ -7,7 +7,7 @@ export const Project = [
        image : "https://img.freepik.com/free-photo/gray-sofa-white-living-room-with-copy-space_43614-909.jpg?t=st=1716973405~exp=1716977005~hmac=96f6c50e79a059a2331618795179fcb710399442d538efb156dda8710f42c1dd&w=900",
        subTitle: "MINI ECOM",
        gitHubLink : "https://github.com/Krish1rst/ComfyStore",
-       liveLink :"https://comfystore-krish.netlify.app/",
+       liveLink :"https://vanilla-js-store.netlify.app/",
      },
      { id: 2, 
         projectType: "js",
