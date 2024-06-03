@@ -20,7 +20,7 @@ const ContactSection = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_250nt7j', 'template_c9zrfh3', form.current, '1WDAzOvKvj91gIE5c')
+    emailjs.sendForm('service_qww48n3', 'template_lqeab1b', form.current, 'D2vKZwr4iwfhN4UNX')
       .then((result) => {
           console.log(result.text);
           e.target.reset();
@@ -74,19 +74,19 @@ const ContactSection = () => {
           
           <div className="contact-icons">
             <div className="contact-icon">
-              <a href="https://www.linkedin.com/in/krishna-1rst/" className="a-icon">
+              <a href="https://www.linkedin.com/in/krishna-1rst/"target="_blank" rel="noreferrer" className="a-icon">
               <i className="fab fa-linkedin icon-i"></i>
               </a>
-              <a href="https://github.com/Krish1rst" className="a-icon">
+              <a href="https://github.com/Krish1rst"target="_blank" rel="noreferrer" className="a-icon">
                 <i className="fab fa-github i-cn"></i>
               </a>
-              <a href="https://leetcode.com/Krishtark/" className="a-icon">
+              <a href="https://leetcode.com/Krishtark/"target="_blank" rel="noreferrer" className="a-icon">
               <img className='leetcode' src={images.leetcode} alt="" />
               </a>
-              <a href="https://twitter.com/Krishna1rst" className="a-icon">
+              <a href="https://twitter.com/Krishna1rst"target="_blank" rel="noreferrer" className="a-icon">
                 <i className="fab fa-twitter i-cn"></i>
               </a>
-              <a href="https://photos.app.goo.gl/JfPyKVmv7eDqyhvu7" className="a-icon">
+              <a href="https://photos.app.goo.gl/JfPyKVmv7eDqyhvu7"target="_blank" rel="noreferrer" className="a-icon">
               <i className="fas fa-paint-brush"></i>
               </a>
             </div>
