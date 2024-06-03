@@ -47,10 +47,8 @@ export const Project = [
         title: "TWINTUBE",
         subTitle: "Youtube clone",
         gitHubLink : "https://github.com/Krish1rst/TwinTube",
-        liveLink :"#",
+        liveLink :"https://youtube-clone-sigma-indol.vercel.app/",
       },
     
   ];
-//   https://img.freepik.com/free-photo/marketing-creative-collage-with-phone_23-2149379900.jpg?t=st=1716972487~exp=1716976087~hmac=8240ba3107cbce5caee1d9e87f6828765219a55ac54cdab01b001b1e586bfa65&w=826
- 
 
