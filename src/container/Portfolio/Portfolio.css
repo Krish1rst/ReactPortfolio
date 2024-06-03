@@ -66,7 +66,7 @@
     opacity: 0;
     transform: scale(0);
     transition: all .4s ease-in-out;
-    background: linear-gradient(to bottom,var(--color-secondary), #f5f6f7); 
+    background: linear-gradient(to bottom,var(--color-secondary), #918cf6); 
   }
   
   .hover-item-h3 {
