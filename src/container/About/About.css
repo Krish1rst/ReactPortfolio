@@ -408,12 +408,35 @@
       padding-left: 0;
       text-align: center;
     }
-  
     .timeline {
       grid-template-columns: 1fr;
       padding-bottom: 6rem;
     }
   
+    .timeline-item {
+      padding-left: 1rem; 
+    }
+  
+    .tl-icon {
+      left: -20px; 
+      width: 40px; 
+      height: 40px;
+    }
+  
+    .webh5 {
+      font-size: 1rem; 
+      padding: 0.5rem; 
+    }
+  
+    .skill-icons {
+      justify-content: flex-start; 
+    }
+  
+    .skill-icon {
+      width: 40px; 
+      height: 40px; 
+      margin: 0 3px; 
+    }
     .progress-bars {
       grid-template-columns: 1fr;
     }
