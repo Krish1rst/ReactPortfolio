@@ -75,6 +75,14 @@ export const Project = [
         gitHubLink: 'https://github.com/Krish1rst/Shopify',
         liveLink: 'https://react-vite-comfy-store-v2.netlify.app/'
       },
+      { id: 10, 
+        title: 'STOCK PHOTOS',
+        subTitle: 'SEARCH IMAGES',
+        image: 'https://images.unsplash.com/photo-1576266394503-4999348b5447?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MTc4MjV8MHwxfHNlYXJjaHw1fHxwaG90byUyMGdhbGxlcnl8ZW58MHx8fHwxNzE3NDA1NTcxfDA&ixlib=rb-4.0.3&q=80&w=1080',
+        projectType: 'react',
+        gitHubLink: 'https://github.com/Krish1rst/Stock-Photos',
+        liveLink: 'https://stock-photos-three.vercel.app/'
+      },
     
   ];
 
