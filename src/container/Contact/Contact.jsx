@@ -2,32 +2,20 @@ import React, { useRef, useState ,useEffect} from 'react';
 import emailjs from '@emailjs/browser';
 import './Contact.css';
 import {images} from '../../constants';
+import { toast } from 'react-toastify';
 
 const ContactSection = () => {
   const form = useRef();
-  const [isEmailSent, setIsEmailSent] = useState(false);
-  useEffect(() => {
-    if (isEmailSent) {
-      const timer = setTimeout(() => {
-        setIsEmailSent(false);
-      }, 5000);
-      return () => {
-        clearTimeout(timer);
-      };
-    }
-  }, [isEmailSent]);
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs.sendForm('service_qww48n3', 'template_lqeab1b', form.current, 'D2vKZwr4iwfhN4UNX')
       .then((result) => {
-          console.log(result.text);
           e.target.reset();
-          setIsEmailSent(true);
+          toast.success('Message sent successfully')
       }, (error) => {
-          console.log(error.text);
-          setIsEmailSent(false);
+      toast.error('Failed, try another contact method')
       });
   };
   return (
@@ -111,8 +99,7 @@ const ContactSection = () => {
             </div>
           </form>
         </div>
-        {isEmailSent ? 
-          <><div className='sent'><h5> Message sent !<br/>Thank you for your response.</h5></div></> :null}
+      
       </div>
     </section>
   );
