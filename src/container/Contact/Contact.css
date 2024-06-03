@@ -184,8 +184,9 @@
     background-color: var(--color-grey-5);
     border-radius: 1rem ;
     border: 2px solid var(--color-grey-3);
-    color: var(--color-grey1);
+    color: var(--color-grey2);
     transition: all .4s ease-in-out;
+    font-weight: 600;
   }
   .submit-btn {
     display: flex;
