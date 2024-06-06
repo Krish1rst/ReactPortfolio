@@ -48,7 +48,7 @@ export const Project = [
        title: "TEXTUTILS",
        subTitle: "TEXT MANIPULATION ",
        gitHubLink : "https://github.com/Krish1rst/TextUtils_Krishna",
-       liveLink :"https://spectacular-youtiao-b8c139.netlify.app/",
+       liveLink :"https://text-utils-krishna.vercel.app//",
      },
      
       { id: 7, 
