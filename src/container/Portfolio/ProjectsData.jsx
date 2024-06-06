@@ -40,7 +40,7 @@ export const Project = [
         title: "NewsDaily",
         subTitle: "NEWS API PROJECT",
         gitHubLink : "https://github.com/Krish1rst/NewsDaily",
-        liveLink :"",
+        liveLink :"https://www.linkedin.com/posts/krishna-1rst_codewithharry-reactjs-webdevelopment-activity-7115637637960351744-baNi?utm_source=share&utm_medium=member_desktop",
       },
       { id: 6, 
         projectType: "react",
