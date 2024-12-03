@@ -10,7 +10,7 @@ const ContactSection = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_qww48n3', 'template_lqeab1b', form.current, 'D2vKZwr4iwfhN4UNX')
+    emailjs.sendForm('service_yaen509', 'template_lqeab1b', form.current, '6RS8INuwDIGuVLXb3')
       .then((result) => {
           e.target.reset();
           toast.success('Message sent successfully')
