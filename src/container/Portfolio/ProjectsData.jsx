@@ -48,7 +48,7 @@ export const Project = [
        title: "TEXTUTILS",
        subTitle: "TEXT MANIPULATION ",
        gitHubLink : "https://github.com/Krish1rst/TextUtils_Krishna",
-       liveLink :"https://text-utils-krishna.vercel.app//",
+       liveLink :"https://text-utils-krishna.vercel.app/",
      },
      
      { id: 5, 
@@ -57,7 +57,7 @@ export const Project = [
       title: "NewsDaily",
       subTitle: "NEWS API/Not deployed",
       gitHubLink : "https://github.com/Krish1rst/NewsDaily",
-      liveLink :"https://www.linkedin.com/posts/krishna-1rst_codewithharry-reactjs-webdevelopment-activity-7115637637960351744-baNi?utm_source=share&utm_medium=member_desktop",
+      liveLink :"https://github.com/Krish1rst/NewsDaily",
     },
 
       { id: 8, 
