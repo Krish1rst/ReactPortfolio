@@ -34,7 +34,7 @@ const PortfolioSection = () => {
 
       {category === 'All' && (
         <>
-          <h2 className="port-text-heading">JavaScript Projects</h2>
+          <h2 className="port-text-heading">JavaScript / 3Js / GSAP</h2>
           <div className="portfolios">
             {Project.map((item) => {
               if (item.projectType === 'js') {
@@ -90,7 +90,7 @@ const PortfolioSection = () => {
             })}
           </div>
 
-          <h2 className="port-text-heading">MERN Stack Projects</h2>
+          <h2 className="port-text-heading">MERN Stack / Backend</h2>
           <div className="portfolios">
             {Project.map((item) => {
               if (item.projectType === 'mern') {
