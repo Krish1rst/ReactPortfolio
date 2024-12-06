@@ -63,7 +63,7 @@ export const Project = [
       { id: 8, 
         title: 'SHOPIFY ',
         subTitle: 'ECOMMERCE APP',
-        image: 'https://media4.giphy.com/media/H70Y4dmzjcifW4zKSZ/200.webp?cid=790b7611kodzes6n9ttehshan0nft5co4bddwfc1hibstkmk&ep=v1_gifs_search&rid=200.webp&ct=g',
+        image: 'https://media.istockphoto.com/id/1429456277/photo/online-shopping-with-credit-car-or-cash-money.jpg?s=612x612&w=0&k=20&c=l2uK4zXLwopGjxP3L5Fxn0GFQ129U_qvVLqXvqlcwwM=',
         projectType: 'mern',
         gitHubLink: 'https://github.com/Krish1rst/Shopify',
         liveLink: 'https://react-vite-comfy-store-v2.netlify.app/'
