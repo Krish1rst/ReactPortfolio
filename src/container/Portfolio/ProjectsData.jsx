@@ -1,6 +1,14 @@
 
 
 export const Project = [
+    { id: 3, 
+        projectType: "js",
+        image : "https://media1.giphy.com/media/fDxtUfyFNbNy99dG03/200.webp?cid=ecf05e479ym9tul8ga8dwicqbhqa8btvy07mitxlcbe0kcxx&ep=v1_gifs_search&rid=200.webp&ct=g",
+        title: "Gaming Website",
+        subTitle: "Venture into gaming world",
+        gitHubLink : "https://github.com/Krish1rst/Animated-Gaming-website",
+        liveLink :"https://3dgaming-website-clone.vercel.app/",
+      },
     { id: 1, 
         projectType: "js",
         title: "SUSHIMAN",
@@ -17,14 +25,7 @@ export const Project = [
       gitHubLink: 'https://github.com/Krish1rst/iPhone15-website',
       liveLink: 'https://iphone-animated-website-hazel.vercel.app/'
       },
-      { id: 3, 
-        projectType: "js",
-        image : "https://media1.giphy.com/media/fDxtUfyFNbNy99dG03/200.webp?cid=ecf05e479ym9tul8ga8dwicqbhqa8btvy07mitxlcbe0kcxx&ep=v1_gifs_search&rid=200.webp&ct=g",
-        title: "Gaming Website",
-        subTitle: "Venture into gaming world",
-        gitHubLink : "https://github.com/Krish1rst/Animated-Gaming-website",
-        liveLink :"https://3dgaming-website-clone.vercel.app/",
-      },
+      
       { id: 4, 
         projectType: "react",
         image : "https://media4.giphy.com/media/13Nc3xlO1kGg3S/200.webp?cid=ecf05e47mnfx0o4mfsoi7we9tzlahdn1dbr1f1y9jlqqpm0x&ep=v1_gifs_search&rid=200.webp&ct=g",

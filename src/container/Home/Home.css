@@ -9,6 +9,14 @@
     align-items: center;
     position: relative;
   }
+  .name {
+    cursor: pointer;
+    transition: color 0.5s ease;
+  }
+  
+  .image img {
+    transform-origin: center center;
+  }
   
   .h-shape {
     transition: all .4s ease-in-out;
