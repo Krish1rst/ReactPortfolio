@@ -52,7 +52,7 @@ export default function Home() {
       )
       .add(() => {
         gsap.to(btnRef.current, {
-          y: 5, 
+          y: 10, 
           repeat: -1, 
           yoyo: true, 
           duration: 0.6,
