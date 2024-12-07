@@ -135,11 +135,10 @@
     flex-direction: column;
   }
   .progress-bar:hover{
-    transform: scale(1.04);
     transition: all .4s ease-in-out;
   }
   .h4-abt:hover{
-    transform: scale(1.09);
+    
     transition: all .4s ease-in-out;
   }
   .prog-title {
@@ -287,16 +286,16 @@
     justify-content: center;
   }
   .tl-icon:hover{
-    transform: scale(1.102);
+    
     transition: all .4s ease-in-out;
     box-shadow: 0 0  15px 5px var(--color-secondary);
     }
     .timeline-item:hover{
-      transform: scale(1.03);
+     
       transition: all .4s ease-in-out;
     }
     .p-para:hover{
-      transform: scale(1.03);
+      
       transition: all .4s ease-in-out;
     }
   .i {
@@ -374,7 +373,7 @@
     
   
   }
-  
+
   @media screen and(max-width:970px) {
     .section {
       padding: 7rem 6rem;

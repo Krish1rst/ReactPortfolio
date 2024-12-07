@@ -1,10 +1,8 @@
 import React from 'react';
 import './About.css';
-import AboutConatiner from './about-container';
-import Timeline from './timeline';
-import Stats from './stats';
-
-
+import Container from './About-container.jsx'
+import Stats from './Stats.jsx'
+import Timeline from './Timeline.jsx';
 const AboutSection = () => {
   return (
     <section className="section sec2 active" id="about">
@@ -13,13 +11,10 @@ const AboutSection = () => {
           About<span className="name-span">me</span>
           <span className="bg-text">mystats</span>
         </h2>
-        <AboutConatiner/>
-        <Stats/>
-        <Timeline/>
       </div>
-      
-     
-     
+      <Container/>
+      <Stats/>
+      <Timeline/>
     </section>
   );
 }

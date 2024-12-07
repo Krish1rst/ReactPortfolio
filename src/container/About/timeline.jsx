@@ -3,7 +3,7 @@ import './About.css';
 const Timeline = () => {
   return <>
 
-<h4 className="stat-title">My Timeline</h4>
+
       <div className="timeline">
         <div className="timeline-item">
           <div className="tl-icon">
