@@ -169,8 +169,7 @@
     left: 0;
     height: 100%;
     background-color: var(--color-secondary);
-    width: 80%;
-    transition: all .4s ease-in-out;
+    animation: expand-shrink 1s ease-in-out infinite;
   }
   .html:hover{
     width: 90%;
@@ -182,8 +181,7 @@
     left: 0;
     height: 100%;
     background-color: var(--color-secondary);
-    width: 80%;
-    transition: all .4s ease-in-out;
+    animation: expand-shrink 1.2s ease-in-out infinite;
   }
   .css:hover{
     width: 90%;
@@ -195,12 +193,21 @@
     left: 0;
     height: 100%;
     background-color: var(--color-secondary);
-    width: 80%;
-    transition: all .4s ease-in-out;
+    animation: expand-shrink 1.4s ease-in-out infinite;
   }
   .js:hover{
     width: 90%;
     box-shadow: 0 0 10px 2px var(--color-secondary);
+  }
+  @keyframes expand-shrink {
+    0%, 100% {
+      width: 80%; 
+      box-shadow: 0 0 0 0 var(--color-secondary);
+    }
+    50% {
+      width: 90%;
+      box-shadow: 0 0 10px 2px var(--color-secondary); 
+    }
   }
   .reactjs {
     position: absolute;
@@ -208,8 +215,7 @@
     left: 0;
     height: 100%;
     background-color: var(--color-secondary);
-    width: 70%;
-    transition: all .4s ease-in-out;
+    animation: expand-shrink 1.6s ease-in-out infinite;
   }
   .reactjs:hover{
     width: 80%;
@@ -221,8 +227,7 @@
     left: 0;
     height: 100%;
     background-color: var(--color-secondary);
-    width: 55%;
-    transition: all .4s ease-in-out;
+    animation: expand-shrink 1.8s ease-in-out infinite;
   }
   .nodejs:hover{
     width: 70%;
@@ -234,8 +239,7 @@
     left: 0;
     height: 100%;
     background-color: var(--color-secondary);
-    width: 50%;
-    transition: all .4s ease-in-out;
+    animation: expand-shrink 2s ease-in-out infinite;
   }
   .db:hover{
     width: 70%;
