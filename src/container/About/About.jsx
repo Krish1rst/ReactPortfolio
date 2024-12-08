@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import Container from './About-container.jsx'
+import Container from './AboutContainer.jsx'
 import Stats from './Stats.jsx'
 import Timeline from './Timeline.jsx';
 import Landscape from '../../components/bgAnimation/Lanscape';
