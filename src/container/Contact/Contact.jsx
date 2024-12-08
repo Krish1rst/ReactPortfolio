@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 import './Contact.css';
 import {images} from '../../constants';
 import { toast } from 'react-toastify';
-import Landscape from './Lanscape';
+import Landscape from '../../components/bgAnimation/Lanscape';
 const ContactSection = () => {
   const form = useRef();
 

@@ -38,11 +38,13 @@ const Landscape = () => {
       <div className="lotus lotus-1"></div>
       <div className="lotus lotus-2"></div>
       <div className="lotus lotus-3"></div>
+      
       <div className="front">
         <div className="stone"></div>
         <div className="grass"></div>
         <div className="grass grass-1"></div>
         <div className="grass grass-2"></div>
+        
         <div className="reed"></div>
         <div className="reed reed-1"></div>
       </div>

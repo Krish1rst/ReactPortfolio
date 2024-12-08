@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './Portfolio.css';
 import { Project } from './ProjectsData';
+import Landscape from '../../components/bgAnimation/Lanscape';
+
 
 const PortfolioSection = () => {
   const [category, setCategory] = useState('All');
@@ -14,6 +16,7 @@ const PortfolioSection = () => {
 
   return (
     <section className="section sec3 active" id="portfolio">
+      <Landscape />
       <div className="main-title">
         <h2>
           My<span className="name-span">Projects</span><span className="bg-text">Portfolio</span>

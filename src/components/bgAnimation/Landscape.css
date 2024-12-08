@@ -139,7 +139,7 @@ animation:none!important;
     -25vmin 0 0 -0.6vmin currentcolor;
   opacity: 0.3;
   transform: translate3d(-150vmin, 0, 0);
-  animation: clouds 120s infinite;
+  animation: clouds 15s infinite;
   animation-delay: -10s;
 }
 @keyframes clouds {
