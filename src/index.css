@@ -26,6 +26,14 @@
     --invert-color3:#efdc10;
     --br-sm-2: 14px;
     --box-shadow-1: 0 3px 15px rgba(0, 0, 0, 0.3);
+    --v1: #be91c6;
+    --v2: #8a65cc;
+    --v3: #5e30d9;
+    --transparentv3: #5e30d900;
+    --v4: #3b1895;
+    --s1: #fea798;
+    --s2: #ff846e;
+    --cloud: #fea798;
   }
   
   .light-mode {

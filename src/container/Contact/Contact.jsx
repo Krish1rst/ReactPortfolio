@@ -1,9 +1,9 @@
-import React, { useRef, useState ,useEffect} from 'react';
+import React, { useRef} from 'react';
 import emailjs from '@emailjs/browser';
 import './Contact.css';
 import {images} from '../../constants';
 import { toast } from 'react-toastify';
-
+import Landscape from './Lanscape';
 const ContactSection = () => {
   const form = useRef();
 
@@ -20,6 +20,7 @@ const ContactSection = () => {
   };
   return (
     <section className="section active sec5" id="contact">
+      <Landscape />
       <div className="main-title">
         <h2>Contact<span className="name-span">Me</span><span className="bg-text bg-text-contact">MYCONTACTS</span></h2>
       </div>
