@@ -17,7 +17,7 @@ const AboutConatiner = () => {
           </div> 
           <div className="about-item">
             <div className="abt-text">
-              <p className="small-text left">Intermediate-XII(2019)<br />-Jawahar Navodya Vidyalaya Ghazipur, UP <br/>Percentage: 81.4%</p>
+              <p className="small-text left">Intermediate-XII(2019)<br />-Jawahar Navodaya Vidyalaya Ghazipur, UP <br/>Percentage: 81.4%</p>
             </div>
           </div> 
         </div>
